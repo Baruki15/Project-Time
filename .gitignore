@@ -1,0 +1,134 @@
+# =========================
+# DEPENDÊNCIAS
+# =========================
+node_modules/
+
+# =========================
+# BUILD / DISTRIBUIÇÃO
+# =========================
+dist/
+release/
+build-output/
+out/
+
+# Electron Builder
+*.blockmap
+latest.yml
+builder-debug.yml
+
+# =========================
+# ELECTRON
+# =========================
+*.asar
+
+# =========================
+# BANCO DE DADOS
+# =========================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Caso queira manter schema/migrations:
+!database/schema.sql
+!database/migrations/
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# CACHE
+# =========================
+.cache/
+.temp/
+tmp/
+temp/
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# IDE / EDITOR
+# =========================
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# =========================
+# ENVIRONMENT
+# =========================
+.env
+.env.local
+.env.production
+.env.development
+
+# =========================
+# TESTES
+# =========================
+coverage/
+
+# =========================
+# TYPESCRIPT
+# =========================
+*.tsbuildinfo
+
+# =========================
+# ELECTRONMON
+# =========================
+.electronmon/
+
+# =========================
+# AUTO UPDATE
+# =========================
+*.exe
+*.dmg
+*.AppImage
+*.snap
+
+# =========================
+# ARQUIVOS TEMPORÁRIOS
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# LOCKFILES (ESCOLHA UM)
+# =========================
+
+# npm
+# package-lock.json
+
+# yarn
+# yarn.lock
+
+# pnpm
+# pnpm-lock.yaml
